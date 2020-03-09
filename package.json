@@ -7,7 +7,8 @@
   "author": "King Elisha <ek.chibueze@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "watch": "parcel watch src/main.jsx -d src/build/ -o main.js"
+    "watch": "parcel watch src/main.jsx -d src/build/ -o main.js",
+    "build": "parcel build src/main.jsx -d src/build/ -o main.js"
   },
   "dependencies": {
     "babel-preset-env": "^1.7.0",

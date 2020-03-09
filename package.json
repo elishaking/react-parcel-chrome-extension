@@ -1,0 +1,19 @@
+{
+  "name": "react-parcel-chrome-extension",
+  "version": "1.0.0",
+  "description": "Chrome Extension with React",
+  "main": "src/main.js",
+  "repository": "https://github.com/elishaking/react-parcel-chrome-extension.git",
+  "author": "King Elisha <ek.chibueze@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "watch": "parcel watch src/main.jsx -d src/build/ -o main.js"
+  },
+  "dependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "parcel-bundler": "^1.12.4",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  }
+}
